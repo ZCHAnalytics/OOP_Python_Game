@@ -21,11 +21,11 @@ class HangMan:
                 if letter == guess:
                     self.word_letters[position] = letter
             print(self.word_guessed)
-            num_letters -= 1
+            self.num_letters -= 1
         else:
-            num_lives -= 1
+            self.num_lives -= 1
             print(f'Sorry, {guess} is not in the word')
-            print('You have {num_lives} lives left.')
+            print('You have {self.num_lives} lives left.')
 
     def ask_for_input(self):
         while True:
@@ -38,5 +38,15 @@ class HangMan:
                 self.check_guess(guess)
                 guess = self.list_of_guesses.append
 
-game = HangMan(word_list = ['banana', 'mango', 'cherry', 'apple', 'pear'], num_lives=5)
-game.ask_for_input(guess)
+def play_game(word_list):
+    num_lives = 5
+    game = HangMan(word_list, num_lives)
+    while True:
+        if num_lives == 0:
+            print('You lost!')
+        elif game.num_lives > 0:
+            game.ask_for_input()
+        if (num_lives > 0) and (HangMan.num_letters == 0):
+            print('Congratulations. You won the game!')
+
+play_game(word_list = ['banana', 'mango', 'cherry', 'apple', 'pear'])
