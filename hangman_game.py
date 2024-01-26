@@ -46,6 +46,7 @@ class Hangman:
             self.num_letters (length): Number of unique letters in the chosen word.
             self.list_of_guesses (list): List of correctly guessed letters.              
         """
+        
         self.word_list = word_list 
         self.num_lives = num_lives 
         self.word = random.choice(word_list) 

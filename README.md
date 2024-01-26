@@ -21,3 +21,8 @@ milestone5.py - full code that runs the game until the user loses or wins.
 
 # License information
 MIT License
+
+#TODO: To improve the structure I would suggest to do some research on how to format a table of contents. Also more detail on the installation process.
+
+Here is some more information:
+https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/Content/units/Essentials/1.%20Git%20%26%20GitHub/6.%20Github%20README%20files/Notebook.ipynb
