@@ -1,28 +1,51 @@
-# Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
+# Hangman - Object Oriented Python
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+[![GitHub license](https://img.shields.io/github/license/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/issues)
+[![GitHub stars](https://img.shields.io/github/stars/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/stargazers)
 
-## Description 
-This codes creates a game where users need to guess a word by inputting letters and they have five tries.The code uses Object Oriented Programming, while and if loop commands, as well as string method isalpha().  
+A simple Hangman game implemented in Python using object-oriented programming.
 
-# Installation instructions
-You will need python 3 to run this game
+## Overview
 
-# Usage instructions
-in your terminal, open milestone5.py file, run the script and follow the instructions from the script. 
+This Hangman game showcases various object-oriented programming (OOP) concepts and skills, including:
 
-# File structure of the project
-The project contains step by step building of blocks of code for the game. 
-milestone2.py - code to chose a random word from a given list, to ask a user for an input, and to validate the input. 
-milestone3.py - code to check if the user's inputted letter is in the chosen word.
-mileston4.py - code that sets a limited number of lives.
-milestone5.py - full code that runs the game until the user loses or wins. 
+- **Class Design:** Utilises the Hangman class to encapsulate the game logic and attributes.
+- **Encapsulation:** Attributes such as the word to be guessed, the number of lives, and the guessed letters are encapsulated within the Hangman class.
+- **Inheritance:** The Hangman class is constructed with attributes inherited from the generic object class in Python.
+- **Methods:** The game includes methods for checking guesses, asking for user input, and playing the game.
 
-# License information
-MIT License
+## Getting Started
 
-#TODO: To improve the structure I would suggest to do some research on how to format a table of contents. Also more detail on the installation process.
+These instructions will help you run the Hangman game on your local machine.
 
-Here is some more information:
-https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/Content/units/Essentials/1.%20Git%20%26%20GitHub/6.%20Github%20README%20files/Notebook.ipynb
+### Prerequisites
+
+- Python 3.12.0
+
+### Installation
+
+```bash
+# Clone the repository:
+git clone https://github.com/ZCHAnalytics/hangman_object_oriented.py.git
+```
+
+# Run the game:
+```bash
+python hangman_object_oriented.py
+```
+# How to Play
+Run the game as mentioned above.
+
+Follow the on-screen prompts to guess the letters and complete the word.
+
+Enjoy playing Hangman!
+
+# Contributing
+If you'd like to contribute, please fork the repository and create a pull request. Contributions are welcome!
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Acknowledgments
+This project was completed as part of the coding exercises from AICore. Special thanks for the guidance and learning opportunities.
