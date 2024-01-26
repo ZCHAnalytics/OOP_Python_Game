@@ -12,7 +12,6 @@ This Hangman game showcases various object-oriented programming (OOP) concepts a
 
 - **Class Design:** Utilises the Hangman class to encapsulate the game logic and attributes.
 - **Encapsulation:** Attributes such as the word to be guessed, the number of lives, and the guessed letters are encapsulated within the Hangman class.
-- **Inheritance:** The Hangman class is constructed with attributes inherited from the generic object class in Python.
 - **Methods:** The game includes methods for checking guesses, asking for user input, and playing the game.
 
 ## Getting Started
