@@ -1,9 +1,13 @@
-# Hangman - Object Oriented Python
-
-[![GitHub license](https://img.shields.io/github/license/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/issues)
-[![GitHub stars](https://img.shields.io/github/stars/ZCHAnalytics/hangman_object_oriented.py)](https://github.com/ZCHAnalytics/hangman_object_oriented.py/stargazers)
-
+<p align="left">
+    <h1 align="left">  Hangman - Object Oriented Python
+<p align="left">
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=plastic&logoColor=white" alt="license">
+	<img src="https://img.shields.io/github/last-commit/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="repo-language-count">
+ <img src="https://img.shields.io/github/repo-size/ZCHAnalytics/hangman686?style=plastic">
+<p>
+  
 A simple Hangman game implemented in Python using object-oriented programming.
 
 ## Overview
