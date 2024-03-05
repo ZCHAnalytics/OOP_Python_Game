@@ -1,16 +1,25 @@
 <p align="left">
-    <h1 align="left">  Hangman - Object Oriented Python
-<p align="left">
+    <h1 align="center">  Hangman - Object Oriented Python
+<p align="centre">
 <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=plastic&logoColor=white" alt="license">
 	<img src="https://img.shields.io/github/last-commit/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/ZCHAnalytics/hangman686?style=plastic&color=0080ff" alt="repo-language-count">
  <img src="https://img.shields.io/github/repo-size/ZCHAnalytics/hangman686?style=plastic">
 <p>
-  
-Welcome to the Hangman game! This is a classic word-guessing game where you try to uncover a mystery word letter by letter. You have a limited number of attempts, so choose your guesses wisely.
+
+<p align="centre">
+  <img src="https://media.giphy.com/media/gVhplI9SzXgoo/giphy.gif">
+</p>
+
+
+# Welcome to the Hangman game! 
+
+This is a classic word-guessing game where you try to uncover a mystery word letter by letter. You have a limited number of attempts, so choose your guesses wisely.
 
 ## Overview
+
+Store-telling, art, and programming require creativity and problem-solving skills. Artists and programmers alike must make decisions about composition, structure, and style to achieve their desired outcome.
 
 This Hangman game showcases various object-oriented programming (OOP) concepts and skills, including:
 
