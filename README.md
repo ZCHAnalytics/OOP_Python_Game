@@ -8,7 +8,7 @@
  <img src="https://img.shields.io/github/repo-size/ZCHAnalytics/hangman686?style=plastic">
 <p>
   
-A simple Hangman game implemented in Python using object-oriented programming.
+Welcome to the Hangman game! This is a classic word-guessing game where you try to uncover a mystery word letter by letter. You have a limited number of attempts, so choose your guesses wisely.
 
 ## Overview
 
@@ -18,37 +18,13 @@ This Hangman game showcases various object-oriented programming (OOP) concepts a
 - **Encapsulation:** Attributes such as the word to be guessed, the number of lives, and the guessed letters are encapsulated within the Hangman class.
 - **Methods:** The game includes methods for checking guesses, asking for user input, and playing the game.
 
-## Getting Started
+## How to Play
+1. Clone this repository to your local machine.
+2. Make sure you have Python installed.
+3. Run the hangman.py file.
+4. Guess letters to reveal the mystery word.
+5. You have 5 lives. Each incorrect guess costs you a life.
+6. If you guess all the letters before running out of lives, you win! If not, better luck next time.
+7. Follow the on-screen prompts to guess the letters and complete the word.
 
-These instructions will help you run the Hangman game on your local machine.
-
-### Prerequisites
-
-- Python 3.12.0
-
-### Installation
-
-```bash
-# Clone the repository:
-git clone https://github.com/ZCHAnalytics/hangman_object_oriented.py.git
-```
-
-# Run the game:
-```bash
-python hangman_object_oriented.py
-```
-# How to Play
-Run the game as mentioned above.
-
-Follow the on-screen prompts to guess the letters and complete the word.
-
-Enjoy playing Hangman!
-
-# Contributing
-If you'd like to contribute, please fork the repository and create a pull request. Contributions are welcome!
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-# Acknowledgments
-This project was completed as part of the coding exercises from AICore. Special thanks for the guidance and learning opportunities.
+Happy guessing! 🎉
